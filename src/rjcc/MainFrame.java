@@ -1394,6 +1394,7 @@ Calendar calendar = Calendar.getInstance();
                 formWindowClosing(evt);
             }
         });
+        getContentPane().setLayout(new java.awt.BorderLayout());
 
         jPanel1.setLayout(new java.awt.BorderLayout());
 
@@ -1470,6 +1471,7 @@ Calendar calendar = Calendar.getInstance();
             public void internalFrameOpened(javax.swing.event.InternalFrameEvent evt) {
             }
         });
+        jInternalFrame1.getContentPane().setLayout(new java.awt.BorderLayout());
 
         jPanel2.setLayout(new java.awt.BorderLayout());
 
@@ -1534,13 +1536,13 @@ Calendar calendar = Calendar.getInstance();
         dateChooserCombo5.setCurrentView(new datechooser.view.appearance.AppearancesList("Swing",
             new datechooser.view.appearance.ViewAppearance("custom",
                 new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("Dialog", java.awt.Font.PLAIN, 12),
-                    new java.awt.Color(187, 187, 187),
+                    new java.awt.Color(0, 0, 0),
                     new java.awt.Color(0, 0, 255),
                     false,
                     true,
                     new datechooser.view.appearance.swing.ButtonPainter()),
                 new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("Dialog", java.awt.Font.PLAIN, 12),
-                    new java.awt.Color(187, 187, 187),
+                    new java.awt.Color(0, 0, 0),
                     new java.awt.Color(0, 0, 255),
                     true,
                     true,
@@ -1558,13 +1560,13 @@ Calendar calendar = Calendar.getInstance();
                     true,
                     new datechooser.view.appearance.swing.LabelPainter()),
                 new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("Dialog", java.awt.Font.PLAIN, 12),
-                    new java.awt.Color(187, 187, 187),
+                    new java.awt.Color(0, 0, 0),
                     new java.awt.Color(0, 0, 255),
                     false,
                     true,
                     new datechooser.view.appearance.swing.LabelPainter()),
                 new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("Dialog", java.awt.Font.PLAIN, 12),
-                    new java.awt.Color(187, 187, 187),
+                    new java.awt.Color(0, 0, 0),
                     new java.awt.Color(255, 0, 0),
                     false,
                     false,
@@ -1709,6 +1711,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame2.setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/rjcc/listico.png"))); // NOI18N
     jInternalFrame2.setPreferredSize(new java.awt.Dimension(600, 400));
     jInternalFrame2.setVisible(false);
+    jInternalFrame2.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jToolBar2.setRollover(true);
 
@@ -1765,6 +1768,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame3.setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/rjcc/listico.png"))); // NOI18N
     jInternalFrame3.setPreferredSize(new java.awt.Dimension(800, 600));
     jInternalFrame3.setVisible(false);
+    jInternalFrame3.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jToolBar3.setRollover(true);
 
@@ -1814,6 +1818,7 @@ Calendar calendar = Calendar.getInstance();
         e1.printStackTrace();
     }
     jInternalFrame4.setVisible(false);
+    jInternalFrame4.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jToolBar4.setRollover(true);
 
@@ -1868,6 +1873,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame5.setMinimumSize(new java.awt.Dimension(800, 600));
     jInternalFrame5.setPreferredSize(new java.awt.Dimension(1024, 768));
     jInternalFrame5.setVisible(false);
+    jInternalFrame5.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jToolBar5.setRollover(true);
 
@@ -1922,6 +1928,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame6.setPreferredSize(new java.awt.Dimension(800, 600));
     jInternalFrame6.setRequestFocusEnabled(false);
     jInternalFrame6.setVisible(false);
+    jInternalFrame6.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jToolBar6.setRollover(true);
 
@@ -1966,6 +1973,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame7.setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/rjcc/listico.png"))); // NOI18N
     jInternalFrame7.setPreferredSize(new java.awt.Dimension(800, 600));
     jInternalFrame7.setVisible(false);
+    jInternalFrame7.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jToolBar7.setRollover(true);
 
@@ -2009,6 +2017,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame8.setTitle("Конфигурация");
     jInternalFrame8.setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/rjcc/settings.png"))); // NOI18N
     jInternalFrame8.setVisible(false);
+    jInternalFrame8.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jTable1.setModel(new javax.swing.table.DefaultTableModel(
         new Object [][] {
@@ -2049,6 +2058,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame9.setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/rjcc/listico.png"))); // NOI18N
     jInternalFrame9.setPreferredSize(new java.awt.Dimension(800, 400));
     jInternalFrame9.setVisible(false);
+    jInternalFrame9.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jToolBar8.setRollover(true);
 
@@ -2095,6 +2105,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame10.setTitle("Отчет 2");
     jInternalFrame10.setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/rjcc/report.png"))); // NOI18N
     jInternalFrame10.setVisible(false);
+    jInternalFrame10.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jToolBar9.setRollover(true);
 
@@ -2245,6 +2256,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame11.setTitle("Отчет 1");
     jInternalFrame11.setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/rjcc/report.png"))); // NOI18N
     jInternalFrame11.setVisible(false);
+    jInternalFrame11.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jToolBar10.setRollover(true);
 
@@ -2339,6 +2351,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame12.setTitle("Настроки");
     jInternalFrame12.setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/rjcc/settings.png"))); // NOI18N
     jInternalFrame12.setVisible(false);
+    jInternalFrame12.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jToolBar11.setRollover(true);
 
@@ -2627,6 +2640,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame13.setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/rjcc/registered.png"))); // NOI18N
     jInternalFrame13.setPreferredSize(new java.awt.Dimension(1110, 600));
     jInternalFrame13.setVisible(false);
+    jInternalFrame13.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jPanel13.setLayout(new java.awt.BorderLayout());
 
@@ -2648,6 +2662,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame14.setFrameIcon(new javax.swing.ImageIcon(getClass().getResource("/rjcc/targetico.png"))); // NOI18N
     jInternalFrame14.setPreferredSize(new java.awt.Dimension(800, 600));
     jInternalFrame14.setVisible(false);
+    jInternalFrame14.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jTable3.setModel(sessionActiveModel);
     jScrollPane15.setViewportView(jTable3);
@@ -2703,6 +2718,7 @@ Calendar calendar = Calendar.getInstance();
     jInternalFrame15.setClosable(true);
     jInternalFrame15.setTitle("Удаление объектов");
     jInternalFrame15.setVisible(false);
+    jInternalFrame15.getContentPane().setLayout(new java.awt.BorderLayout());
 
     jToolBar13.setRollover(true);
 

@@ -526,7 +526,7 @@ public class DocRoute {
         int yy=date.get(Calendar.YEAR);
         int mm=date.get(Calendar.MONTH)+1;
         int dd=date.get(Calendar.DAY_OF_MONTH);
-        
+               
         if (date != null)
             return "date('"+yy+"-"+mm+"-"+dd+"')";
         else
